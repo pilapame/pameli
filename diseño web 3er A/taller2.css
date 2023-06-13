@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family:'Dancing Script', cursive;
+  height: 150vh;
+  background:#3ABBE8;
+
+}
+header{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(255, 195, 161, 0.616), rgba(255, 175, 188, 0.87)) , url(mariposas.jpg);
+  padding-bottom: 60px;
+}
+.contenedor-textos{
+  width: 50%;
+  color:#D146D6;
+    
+}
+h1{
+  font-size: 120px;
+  margin: 30px;
+  text-shadow: 4px 3px 3px #000000;
+  font-weight: 500;
+
+}
+img{
+  width: 40%;
+  display: inline-block;
+
+}
+.waves{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  
+}
